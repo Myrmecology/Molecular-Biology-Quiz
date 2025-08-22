@@ -1,0 +1,240 @@
+# ====================
+# RUST / CARGO
+# ====================
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+# Remove Cargo.lock comment above if creating a library
+
+# ====================
+# SECURITY & KEYS
+# ====================
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+*.der
+*.priv
+*.pub
+*.asc
+*.gpg
+*.pgp
+.env
+.env.*
+secrets/
+private/
+credentials/
+*_rsa
+*_dsa
+*_ed25519
+*_ecdsa
+*.kdbx
+*.keystore
+*.jks
+
+# YubiKey specific
+*.ykman
+*.yubico
+yubico-*
+yubikey-*
+
+# ====================
+# IDE / EDITORS
+# ====================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+*.vsix
+
+# IntelliJ/JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Vim
+*.swp
+*.swo
+*.swn
+*.vim
+.*.sw[a-z]
+Session.vim
+.netrwhist
+tags
+
+# Emacs
+*~
+\#*\#
+.\#*
+.emacs.desktop
+.emacs.desktop.lock
+
+# ====================
+# OPERATING SYSTEMS
+# ====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+.fuse_hidden*
+
+# ====================
+# TEMPORARY FILES
+# ====================
+*.tmp
+*.temp
+*.log
+*.cache
+tmp/
+temp/
+logs/
+cache/
+*.bak
+*.backup
+*.old
+*.orig
+*_backup
+*_old
+*.save
+
+# ====================
+# BUILD ARTIFACTS
+# ====================
+/debug/
+/release/
+/dist/
+/build/
+/out/
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+
+# ====================
+# DATA & PERSONAL
+# ====================
+# User data
+user_data/
+scores/
+save_data/
+*.save
+*.dat
+
+# Personal notes
+notes/
+TODO.txt
+todo.txt
+personal/
+private_notes/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+
+# ====================
+# DOCUMENTATION
+# ====================
+/doc/
+/docs/_build/
+*.pdf
+*.docx
+*.xlsx
+
+# ====================
+# TESTING
+# ====================
+/coverage/
+*.tarpaulin
+*.profraw
+*.profdata
+/test-results/
+/test-output/
+
+# ====================
+# MISC
+# ====================
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Node (in case you add any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (in case of any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.venv
+venv/
+env/
+
+# Backup files
+*.backup
+*~
+.backup/
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# Patch files
+*.patch
+*.diff
+
+# ====================
+# PROJECT SPECIFIC
+# ====================
+# Local configuration
+config.local.toml
+settings.local.json
+*.local
+
+# Score/save files that shouldn't be tracked
+high_scores.json
+user_progress.json
