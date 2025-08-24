@@ -1,0 +1,16 @@
+{
+  "result": {
+    "total_questions": 20,
+    "correct_answers": 20,
+    "incorrect_answers": 0,
+    "score": 1567.0,
+    "time_taken": {
+      "secs": 443,
+      "nanos": 354616600
+    },
+    "category": "Cellular Respiration",
+    "difficulty_breakdown": []
+  },
+  "timestamp": "2025-08-23T19:27:31.811085300-06:00",
+  "player_name": "Justin"
+}

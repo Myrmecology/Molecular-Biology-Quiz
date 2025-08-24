@@ -1,5 +1,7 @@
 # 🧬 Molecular Biology Quiz
 
+TO SEE A VIDEO DEMO OF THIS PROJECT: https://www.youtube.com/watch?v=5nzR-ljMswA 
+
 An interactive, colorful terminal-based quiz application for testing molecular biology knowledge. Features 7 comprehensive sections with over 140 questions covering fundamental concepts in molecular biology.
 
 ## ✨ Features

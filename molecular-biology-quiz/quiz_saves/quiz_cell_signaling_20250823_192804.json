@@ -1,0 +1,16 @@
+{
+  "result": {
+    "total_questions": 20,
+    "correct_answers": 2,
+    "incorrect_answers": 18,
+    "score": 76.0,
+    "time_taken": {
+      "secs": 10,
+      "nanos": 507228900
+    },
+    "category": "Cell Signaling",
+    "difficulty_breakdown": []
+  },
+  "timestamp": "2025-08-23T19:28:04.404987200-06:00",
+  "player_name": "John"
+}

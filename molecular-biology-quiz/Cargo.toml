@@ -22,11 +22,11 @@ rand = "0.8"
 # Better error handling
 anyhow = "1.0"
 
-# Time handling for scoring
-chrono = "0.4"
+# Time handling for scoring - WITH SERDE FEATURE
+chrono = { version = "0.4", features = ["serde"] }
 
 # Unicode support for symbols
-unicode-width = "0.6"
+unicode-width = "0.2"
 
 [profile.release]
 opt-level = 3

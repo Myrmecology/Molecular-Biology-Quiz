@@ -187,7 +187,7 @@ pub fn print_colored_box(text: &str, color: Color, width: usize) {
     
     println!("{}", top.color(color));
     
-    let padding = (width - text.len()) / 2;
+    let _padding = (width - text.len()) / 2;  // Prefixed with underscore to fix warning
     let padded_text = format!("│{:^width$}│", text, width = width);
     println!("{}", padded_text.color(color));
     
